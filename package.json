@@ -1,0 +1,26 @@
+{
+  "name": "@polycapa/log-decorator",
+  "version": "1.0.0",
+  "description": "TypeScript decorators for logging",
+  "main": "",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "postinstall": "npx tsc",
+    "test": "node examples/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polycapa/log-decorator.git"
+  },
+  "author": "Mathieu Witcz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Polycapa/log-decorator/issues"
+  },
+  "homepage": "https://github.com/Polycapa/log-decorator#readme",
+  "devDependencies": {
+    "typescript": "^3.6.2"
+  }
+}
