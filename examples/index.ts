@@ -5,6 +5,6 @@ const loggedClass = new LoggedTestClass();
 const loggedMethod = new LoggedTestMethod();
 
 loggedClass.loggedMethod(1);
-loggedClass.noLoggedMethod()
+loggedClass.noLogMethod()
 loggedMethod.loggedMethod();
 loggedMethod.partiallyLoggedMethod();

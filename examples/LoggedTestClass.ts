@@ -12,7 +12,7 @@ export class LoggedTestClass {
   }
 
   @NoLogMethod()
-  noLoggedMethod() {
+  noLogMethod() {
 
   }
 }
